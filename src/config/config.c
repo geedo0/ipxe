@@ -275,6 +275,9 @@ REQUIRE_OBJECT ( profstat_cmd );
 #ifdef NTP_CMD
 REQUIRE_OBJECT ( ntp_cmd );
 #endif
+#ifdef TPM_CMD
+REQUIRE_OBJECT ( tpm_cmd );
+#endif
 #ifdef CERT_CMD
 REQUIRE_OBJECT ( cert_cmd );
 #endif

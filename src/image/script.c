@@ -42,6 +42,9 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 #include <ipxe/shell.h>
 #include <usr/prompt.h>
 #include <ipxe/script.h>
+#include <ipxe/crypto.h>
+#include <ipxe/sha1.h>
+#include <ipxe/tpm.h>
 
 /** Offset within current script
  *

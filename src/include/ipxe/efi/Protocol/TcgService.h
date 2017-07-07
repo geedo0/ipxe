@@ -20,6 +20,9 @@ FILE_LICENCE ( BSD3 );
 
 #include <ipxe/efi/IndustryStandard/UefiTcgPlatform.h>
 
+/* Tpm20.h Redefines SHA1_DIGEST_SIZE */
+#undef SHA1_DIGEST_SIZE
+
 #define EFI_TCG_PROTOCOL_GUID  \
   {0xf541796d, 0xa62e, 0x4954, { 0xa7, 0x75, 0x95, 0x84, 0xf6, 0x1b, 0x9c, 0xdd } }
 

@@ -151,6 +151,7 @@ FILE_LICENCE ( GPL2_OR_LATER_OR_UBDL );
 //#define IPSTAT_CMD		/* IP statistics commands */
 //#define PROFSTAT_CMD		/* Profiling commands */
 //#define NTP_CMD		/* NTP commands */
+#define TPM_CMD     /* Image measurement commands */
 //#define CERT_CMD		/* Certificate management commands */
 
 /*
